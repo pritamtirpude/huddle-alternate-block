@@ -1,0 +1,40 @@
+$header1: 4rem;
+$header2: 3.5rem;
+$header3: 2.5rem;
+$header4: 2rem;
+$header5: 1.5rem;
+$header6: 1rem;
+
+$primary_pink: hsl(322, 100%, 66%);
+
+$neutral_very_pale_cyan: hsl(193, 100%, 96%);
+$neutral_very_dark_cyan: hsl(192, 100%, 9%);
+$neutral_grayish_blue: hsl(208, 11%, 55%);
+$neutral_white: hsl(0, 0%, 100%);
+
+$font_poppins: "Poppins", sans-serif;
+$font_open_sans: "Open Sans", sans-serif;
+
+@mixin flex($justify, $align, $direction) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}

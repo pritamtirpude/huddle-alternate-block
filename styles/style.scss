@@ -1,0 +1,135 @@
+@import "global";
+@import "container";
+
+.attribution {
+  font-size: 1.2rem;
+  text-align: center;
+}
+.attribution a {
+  color: $primary_pink;
+}
+
+@media screen and (max-width: 1024px) {
+  .header-container {
+    .nav-bar {
+      nav {
+        .logo {
+          text-align: center;
+        }
+
+        .btn-top button {
+          margin-top: 2rem;
+        }
+      }
+    }
+
+    .intro-content {
+      @include flex(center, center, column);
+      text-align: center;
+      br {
+        display: none;
+      }
+
+      .heading-text {
+        h1 {
+          font-size: $header3;
+        }
+      }
+
+      .header-img {
+        margin-top: 4rem;
+      }
+    }
+  }
+
+  .main-container {
+    width: 100%;
+    height: 100vh;
+
+    .features-section {
+      .grow-section {
+        text-align: center;
+        @include flex(center, center, column);
+        flex-direction: column-reverse;
+
+        br {
+          display: none;
+        }
+
+        .grow-text {
+          margin-top: 3rem;
+
+          h2 {
+            font-size: $header4;
+          }
+        }
+      }
+
+      .conversation-section {
+        text-align: center;
+        @include flex(center, center, column);
+
+        br {
+          display: none;
+        }
+        .conversation-text {
+          margin-top: 3rem;
+
+          h2 {
+            font-size: $header4;
+          }
+        }
+      }
+
+      .user-section {
+        text-align: center;
+        @include flex(center, center, column);
+        flex-direction: column-reverse;
+
+        br {
+          display: none;
+        }
+
+        .user-text {
+          margin-top: 3rem;
+          h2 {
+            font-size: $header4;
+          }
+        }
+      }
+
+      .ready-community {
+        width: 90%;
+      }
+    }
+
+    .footer-section {
+      @include flex(center, center, column);
+
+      .logo-section {
+        margin-top: 10rem;
+        margin-left: 3rem;
+        align-self: flex-start;
+      }
+
+      .about-sitemap {
+        margin-top: 3rem;
+        margin-left: 3rem;
+        align-self: flex-start;
+      }
+
+      .contact-terms {
+        margin-left: 3rem;
+        align-self: flex-start;
+      }
+
+      .social-section {
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        .copyright {
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+}
