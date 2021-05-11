@@ -1,14 +1,6 @@
 @import "global";
 @import "container";
 
-.attribution {
-  font-size: 1.2rem;
-  text-align: center;
-}
-.attribution a {
-  color: $primary_pink;
-}
-
 @media screen and (max-width: 1024px) {
   .header-container {
     .nav-bar {

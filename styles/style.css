@@ -564,15 +564,6 @@ body {
   color: white;
 }
 
-.attribution {
-  font-size: 1.2rem;
-  text-align: center;
-}
-
-.attribution a {
-  color: #ff52bf;
-}
-
 @media screen and (max-width: 1024px) {
   .header-container .nav-bar nav .logo {
     text-align: center;
