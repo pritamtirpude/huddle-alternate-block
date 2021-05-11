@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Fylo Two Column Solution](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5/hub/html5css3sassflexjavascript-24jho_lya)
-- Live Site URL: [Live Site](https://fylo-two-column.netlify.app/)
+- Solution URL: [Huddle Alternate Block Feature Solution](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100/hub/html5-css3-flex-sass-gsap-wb2FMUKKv)
+- Live Site URL: [Live Site](https://huddle-alternate-blocks.netlify.app/)
 
 ## My process
 
